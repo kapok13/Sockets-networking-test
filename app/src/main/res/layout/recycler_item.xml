@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/grey_transparent"
+    android:stateListAnimator="@animator/animator_tap">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_id"/>
+
+        <TextView
+            android:id="@+id/recycler_item_id"
+            android:layout_marginStart="32dp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="591203129"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"/>
+
+        <TextView
+            android:layout_marginStart="16dp"
+            android:id="@+id/recycler_item_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_id"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country"/>
+
+        <TextView
+            android:layout_marginStart="32dp"
+            android:id="@+id/recycler_item_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_id"/>
+
+    </LinearLayout>
+
+</LinearLayout>

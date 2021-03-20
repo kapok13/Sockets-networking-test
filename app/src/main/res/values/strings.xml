@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HTest</string>
+    <string name="empty_username">Input your username</string>
+    <string name="empty_password">Input your password</string>
+    <string name="wrong_data">Invalid user data</string>
+    <string name="retry">Retry</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="enter">Enter</string>
+    <string name="user_id">User id:</string>
+    <string name="username">Username</string>
+    <string name="country">Country</string>
+</resources>
